@@ -1,4 +1,16 @@
+# Ignora todo
 *
+
+# No ignores el archivo .gitignore
 !.gitignore
 
+# No ignores el archivo rabbit.webp (si quieres seguir manteniendo esa excepción)
 !rabbit.webp
+
+# Permite que cualquier otro archivo dentro de public/images sea rastreado
+!*.jpg
+!*.svg
+!*.png
+!*.jpeg
+!*.gif
+!*.webp  # Añadir más extensiones si tienes otros tipos de imagen
